@@ -26,8 +26,8 @@
 									<span class="online_icon"></span>
 								</div>
 								<div class="user_info">
-									<span>Medical Chatbot</span>
-									<p>Ask me anything!</p>
+									<span>MediNova</span>
+									<p>Ask me anything related to medical!</p>
 								</div>
 							</div>
 						</div>
@@ -67,7 +67,7 @@
 							msg: rawText,	
 						},
 						type: "POST",
-						url: "/get",
+						url: "/ask",
 					}).done(function(data) {
 						var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://cdn-icons-png.flaticon.com/512/387/387569.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + data + '<span class="msg_time">' + str_time + '</span></div></div>';
 						$("#messageFormeight").append($.parseHTML(botHtml));

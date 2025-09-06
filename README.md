@@ -1,3 +1,5 @@
+### MediNova
+![alt text](image-1.png)
 
 ### STEP 01- Create a virtual environment after opening the repository
 
@@ -47,3 +49,6 @@ open up localhost:
 - Flask
 - GPT
 - Pinecone
+
+
+![alt text](image.png)
